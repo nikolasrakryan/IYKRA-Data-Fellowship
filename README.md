@@ -1,1 +1,1 @@
-# Iykra-Data-Fellowship
+# IYKRA-Data-Fellowship
