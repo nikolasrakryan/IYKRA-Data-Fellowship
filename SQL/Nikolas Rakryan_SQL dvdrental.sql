@@ -59,7 +59,8 @@ group by store_id, f.film_id order by f.film_id;
 
 
 --Question 7
---We want to know what customers are eligible for our platinum credit card. The requirements are that the customer has at least a total of 40 transaction payments. Get the customer name, email who are eligible for the credit card! 
+--We want to know what customers are eligible for our platinum credit card. The requirements are that the customer has at least a total of 40 transaction payments. 
+--Get the customer name, email who are eligible for the credit card! 
 
 --Find the customers name and email who have at least  40 transaction payment
 select concat(c.first_name,' ',c.last_name) customer_name, email, count(payment_id) total_transaction
